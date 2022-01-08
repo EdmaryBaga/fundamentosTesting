@@ -1,0 +1,54 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+# Local configuration file (sdk path, etc)
+local.properties
+.gradle/6.5.1/
+.gradle/6.7.1/executionHistory/executionHistory.bin
+.gradle/6.7.1/fileHashes/resourceHashesCache.bin
+.gradle/6.7.1/javaCompile/
+.gradle/6.7.1/vcsMetadata-1/
+.gradle/checksums/md5-checksums.bin
+.gradle/checksums/sha1-checksums.bin
+app/build/generated/crashlytics/
+app/build/generated/data_binding_trigger/
+app/build/generated/res/
+app/build/generated/source/
+app/build/intermediates/aar_metadata_check/
+app/build/intermediates/app_metadata/
+app/build/intermediates/compatible_screen_manifest/
+app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/
+app/build/intermediates/data_binding_artifact/
+app/build/intermediates/data_binding_base_class_logs_dependency_artifacts/
+app/build/intermediates/data_binding_dependency_artifacts/
+app/build/intermediates/dex/
+app/build/intermediates/duplicate_classes_check/
+app/build/intermediates/incremental/
+app/build/intermediates/javac/
+app/build/intermediates/manifest_merge_blame_file/
+app/build/intermediates/merged_java_res/
+app/build/intermediates/merged_manifest/
+app/build/intermediates/merged_manifests/
+app/build/intermediates/metadata_application_id/
+app/build/intermediates/navigation_json/
+app/build/intermediates/packaged_manifests/
+app/build/intermediates/res/
+app/build/intermediates/runtime_symbol_list/
+app/build/intermediates/signing_config_versions/
+app/build/intermediates/symbol_list_with_package_name/
+app/build/intermediates/transforms/
+app/build/intermediates/validate_signing_config/
+app/build/kotlin/
+app/build/outputs/
+app/build/tmp/
+build/
+
