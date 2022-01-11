@@ -35,7 +35,7 @@ class AssertionsTest{
         val user = null
         val assertion = Assertions()
 
-        assertNull(assertion.checkHuman(user))
+        assertNull(assertion.isHuman(user))
     }
 
     @Test
@@ -43,7 +43,7 @@ class AssertionsTest{
         val user : User = User(name = "paco", age = 23)
         val assertion = Assertions()
 
-        assertNotNull(assertion.checkHuman(user))
+        assertNotNull(assertion.isHuman(user))
     }
 
     @Test

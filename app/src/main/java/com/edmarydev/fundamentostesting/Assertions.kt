@@ -12,11 +12,11 @@ class Assertions {
         return user.name
     }
 
-    fun checkHuman(user : User):Boolean{
+    fun isHuman(user : User):Boolean{
         return user.isHuman
     }
 
-    fun checkHuman(user: User? = null):Boolean?{
+    fun isHuman(user: User? = null):Boolean?{
         if(user == null) return  null
         return user.isHuman
     }
