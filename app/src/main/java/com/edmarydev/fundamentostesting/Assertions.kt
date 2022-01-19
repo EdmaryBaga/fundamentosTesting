@@ -1,7 +1,7 @@
 package com.edmarydev.fundamentostesting
 
 class Assertions {
-    private val user = User("Alex", 2)
+    private val user = User("Alex", 26)
 
     fun getLuckyNumbers() : Array<Int>{
         return arrayOf(12,10);
@@ -23,7 +23,12 @@ class Assertions {
 
     fun isAdult(user: User):Boolean{
         if(!user.isHuman) return true
-        return user.age >=18
+        return if (user.location =="USA") user.age>=21
+        else user.age >=18
+    }
+
+    fun setLocation(location : String){
+        user.location = location
     }
 
 
